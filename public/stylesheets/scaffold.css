@@ -4,6 +4,7 @@ body, p, ol, ul, td {
   
   font-size:   13px;
   line-height: 18px;
+  font-family: 'Lucida Grande','Helvetica','Arial';
 }
 
 pre {

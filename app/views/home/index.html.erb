@@ -4,9 +4,9 @@
 	<div id="content_wrapper">
 		<div id="tagline">
 			<ul id="list" class="numbers">
-				<li class="one"><h2>Collect House Points</h2></li>
-				<li class="two"><h2>Task Management</h2></li>
-				<li class="three"><h2>Increase Involvement</h2></li>
+				<li class="one"><h2>Collect house points</h2></li>
+				<li class="two"><h2>Manage tasks</h2></li>
+				<li class="three"><h2>Increase involvement</h2></li>
 			</ul>
 		</div>
 		<div id="screenshot">
@@ -30,7 +30,11 @@
 				</div>
 				<div id="socialmedia">
 					<div class="blog_left">
-						<h2>Create Group</h3>
+						<%= image_tag("/images/icons/48x48/user_manage.png", :alt => "Create Group") %>
+						<h2 class="sub_heading">Create Group</h2>
+						<div id="sub_heading">
+							
+						</div>						
 						<div id="sub_description">
 							<p>
 							   Simple to setup and easy to use.  
@@ -38,7 +42,8 @@
 						</div>
 					</div>
 					<div class="twitter_middle">
-						<h2>Add Members</h3>
+						<%= image_tag("/images/icons/48x48/user_add.png", :alt => "Add Members") %>					
+						<h2 class="sub_heading">Add Members</h3>
 						<div id="sub_description">
 							<p>
 							   Invite members via a specific link we provide.
@@ -46,7 +51,8 @@
 						</div>					
 					</div>
 					<div class="facebook_right">
-						<h2>Do Tasks</h3>
+						<%= image_tag("/images/icons/48x48/notification_done.png", :alt => "Do Tasks") %>						
+						<h2 class="sub_heading">Do Tasks</h3>
 						<div id="sub_description">		
 							<p>
 							   Create tasks and assign them to members.

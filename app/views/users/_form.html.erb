@@ -2,7 +2,7 @@
   <%= render 'shared/error_messages' %>
 
   <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label :name, "Your Full Name" %><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">
@@ -10,7 +10,7 @@
     <%= f.password_field :password %>
   </div>
   <div class="field">
-    <%= f.label :password_confirmation, "Confirmation" %><br />
+    <%= f.label :password_confirmation, "Confirm Password" %><br />
     <%= f.password_field :password_confirmation %>
   </div>
   <div class="field">
@@ -18,10 +18,10 @@
     <%= f.text_field :email %>
   </div>
   <div class="field">
-  	<%= f.label :group_name %><br />
+  	<%= f.label :group_name, "Group Name"%><br />
   	<%= f.text_field :group_name %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Create Group"%>
   </div>
 <% end %>

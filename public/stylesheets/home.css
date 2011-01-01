@@ -102,21 +102,41 @@
 	
 }
 
+
 #sub_description {
-	height: 100px;
+	height: 60px;
 	width: 280px;
 	padding: 10px;
 	background-color: #F3F3FA;	
 	margin-top: 10px;
+	border-color: lightgrey;
+	border-width: 1px;
+	border-style:dotted;
 	
 
 }
 
 #sub_description p {
+	display: inline;
 	font-size: 15px;
 
 }
 
+.sub_heading {
+	position: absolute;
+	margin-bottom: 50px;
+	margin-left: 10px;
+
+}
+/*
+#sub_heading {
+	position: absolute;
+	display: inline;
+	margin-bottom: 50px;
+
+}
+
+*/
 {
 	
 	margin: 0px;
