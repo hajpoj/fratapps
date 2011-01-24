@@ -23,9 +23,9 @@
 
 
 #field_description h4{
-	position: absolute;
+	position: relative;
 	margin-top: -3px;
-	margin-left: 50px;
+	margin-left: 40px;
 	font-size: 11px;
 	color: grey;
 	
