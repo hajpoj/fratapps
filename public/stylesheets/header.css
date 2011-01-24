@@ -47,14 +47,24 @@
 	border: 3px solid #246A8D;
 }
 
-#login_inside h1 {
+#login_inside .h1 {
+	position: relative;
 	padding: 0px;
 	display: inline;
 	font-size: 16px;
-	margin-left: 300px;
-	margin-top: 150px;
-	
-	
+	float: right;
+	text-align: right;
+	white-space: nowrap;
+	width: 510px;
+}
+
+.logout_link {
+
+	display: inline;
+	float: right;
+	text-align: right;
+	white-space: nowrap;
+
 }
 
 #field_email {

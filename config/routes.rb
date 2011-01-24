@@ -1,5 +1,7 @@
 Fratapps::Application.routes.draw do
 
+  get "help/index"
+
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
   resources :tasks

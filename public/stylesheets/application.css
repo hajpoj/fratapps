@@ -59,8 +59,15 @@ img {
 #menu_wrapper {
 	position: absolute;
 	margin-top: 55px;
-	margin-left: 520px;
+	margin-left: 558px;
 }
+
+#menuInside {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 160px;
+}
+
 table {
   border-collapse: collapse;
   text-align: center;
