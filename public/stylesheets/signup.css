@@ -1,0 +1,22 @@
+#register {
+
+	width: 275px;	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E1EDF6;
+	padding: 30px;
+	height: 350px;
+}
+
+.signup_field {
+	margin-bottom: 20px;
+	margin-top: 5px;
+	
+
+}
+
+.signup_actions {
+	float:right;
+	
+
+}

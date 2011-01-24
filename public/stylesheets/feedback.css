@@ -1,0 +1,18 @@
+#feedback-banner-container,#feedback-banner-container a,#feedback-banner{
+	background-position:50%!important;background-repeat:no-repeat!important;
+	display:block!important;
+	height:104px!important;position:absolute!important;
+	bottom:50%!important;right:0;width:25px!important;
+	z-index:100001!	important;
+	cursor:pointer;
+}
+
+
+#feedback-banner{
+	background: url(/images/feedback_banner_white_text.png) no-repeat scroll 50% 0;
+	background-color:#000000;
+}
+
+#feedback-banner:hover{
+	background-color:orange;
+}
