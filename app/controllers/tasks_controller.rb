@@ -56,22 +56,22 @@ class TasksController < ApplicationController
 				              		params['recur_to_' + n.to_s]['ordermonthdayyear(3i)'].to_i)
 			
 				# Step through dates from first to last               
-				@crawler.next().step(@stop_at) do |@date|
+				@crawler.next().step(@stop_at) do |date|
 				
 					# If day of week is one of the recurring days
-					if ((@date.wday == 0 and params['recur_Su_' + n.to_s]) or 
-					(@date.wday == 1 and params['recur_Mo_' + n.to_s]) or 
-					(@date.wday == 2 and params['recur_Tu_' + n.to_s]) or 
-					(@date.wday == 3 and params['recur_We_' + n.to_s]) or 
-					(@date.wday == 4 and params['recur_Th_' + n.to_s]) or 
-					(@date.wday == 5 and params['recur_Fr_' + n.to_s]) or 
-					(@date.wday == 6 and params['recur_Sa_' + n.to_s]))
+					if ((date.wday == 0 and params['recur_Su_' + n.to_s]) or
+					(date.wday == 1 and params['recur_Mo_' + n.to_s]) or
+					(date.wday == 2 and params['recur_Tu_' + n.to_s]) or
+					(date.wday == 3 and params['recur_We_' + n.to_s]) or
+					(date.wday == 4 and params['recur_Th_' + n.to_s]) or
+					(date.wday == 5 and params['recur_Fr_' + n.to_s]) or
+					(date.wday == 6 and params['recur_Sa_' + n.to_s]))
 		
 						# Build an instance
 						@ti = @task.task_instances.build(params['task_instance_' + n.to_s])
 						
 						# Fix due date
-						@ti.complete_on = @date
+						@ti.complete_on = date
 		
 						# Set user_id and status
 						if params['open_task_' + n.to_s]
