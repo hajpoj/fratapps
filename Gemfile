@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+#use rails version 1.9.2p320 (if possible that's what I used to get it up and running)
+gem 'rails', '~>3.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -14,7 +15,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'capistrano'
 
 # To use debugger
-gem 'ruby-debug'
+gem 'ruby-debug19'
 
 # Bundle the extra gems:
 # gem 'bj'
