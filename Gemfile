@@ -1,4 +1,7 @@
 source 'http://rubygems.org'
+ruby '1.9.2'
+
+gem 'thin'
 
 #use rails version 1.9.2p320 (if possible that's what I used to get it up and running)
 gem 'rails', '~>3.0.0'
@@ -6,7 +9,13 @@ gem 'rails', '~>3.0.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+group :production, :staging do
+  gem "pg"
+end
+
+group :development, :test do
+  gem "sqlite3-ruby", :require => "sqlite3"
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'
