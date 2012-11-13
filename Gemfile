@@ -1,7 +1,5 @@
 source 'http://rubygems.org'
 
-ruby '1.9.2'
-
 #use rails version 1.9.2p320 (if possible that's what I used to get it up and running)
 gem 'rails', '~>3.0.0'
 
