@@ -4,14 +4,14 @@
 
 #signup {
    position: relative;
-   margin-left: 730px;
+   margin-left: 736px;
    margin-top: 260px;
 
 }
 
 #tryit {
    position: absolute;
-   margin-left: 490px;
+   margin-left: 479px;
    margin-top: 260px;
 
 }
@@ -45,12 +45,7 @@
 	display: inline;
 	
 }
-#details h2 {
-	text-align: center;
-	font-weight: lighter;
-	display: inline;
 
-}
 
 #details h3 {
 	text-align: center;
@@ -103,7 +98,7 @@
 }
 
 
-#sub_description {
+.sub_description {
 	height: 60px;
 	width: 280px;
 	padding: 10px;
@@ -116,27 +111,18 @@
 
 }
 
-#sub_description p {
+.sub_description p {
 	display: inline;
 	font-size: 15px;
 
 }
 
-.sub_heading {
-	position: absolute;
-	margin-bottom: 50px;
-	margin-left: 10px;
-
-}
-/*
-#sub_heading {
-	position: absolute;
-	display: inline;
-	margin-bottom: 50px;
-
+.box-header h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
 }
 
-*/
 {
 	
 	margin: 0px;
