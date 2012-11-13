@@ -15,8 +15,13 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'capistrano'
 
 # To use debugger
-gem 'ruby-debug19'
-
+group :development, :test do
+  if RUBY_VERSION =~ /1.9/
+    gem 'ruby-debug19'
+  else
+    gem 'ruby-debug'
+  end
+end
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
