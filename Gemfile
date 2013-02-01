@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'thin'
 
 #use rails version 1.9.2p320 (if possible that's what I used to get it up and running)
-gem 'rails', '~>3.0.19'
+gem 'rails', '~>3.0.20'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
